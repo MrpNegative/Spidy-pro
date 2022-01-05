@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-section{
+.section-sep{
     display: flex;
     flex-direction: row;
 }
@@ -27,4 +27,12 @@ span{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+a{
+    padding: 10px 40px;
+    background-image: radial-gradient(rgb(206, 134, 0), rgb(230, 140, 125));
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
