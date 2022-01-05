@@ -5,9 +5,13 @@ body{
 .section-sep{
     display: flex;
     flex-direction: row;
+    margin-bottom: 5%;
 }
 h1{
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
 }
 span{
     color: orange;
@@ -35,4 +39,33 @@ a{
     color: white;
     text-decoration: none;
     border-radius: 5px;
+}
+.exp-det{
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+    box-shadow: 10px 9px 100px rgb(48, 48, 48);
+    padding: 0 20px;
+    border-radius: 10px;
+    background-color: #b7ebeb77;
+}
+.bottom-sec{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 10%;
+    
+}
+#for-gc{
+    border-left: 8px solid ;
+    border-image: linear-gradient( rgba(255, 0, 0, 0), yellow);
+    border-image-slice: 1;
+}
+#for-gc2{
+    border-left: 8px solid ;
+    border-image: linear-gradient( rgb(230, 255, 8), rgba(255, 255, 0, 0));
+    border-image-slice: 1;
+}
+.copy-right{
+    text-align: center;
 }
